@@ -1,0 +1,52 @@
+/* html {
+    scroll-behavior: smooth;
+} */
+
+body {
+    background-color: grey;
+}
+
+
+dialog {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+dialog img {
+    width: 100%;
+}
+
+video {
+    width: 720px;
+}
+
+iframe {
+    width: 80%;
+    height: 300px;
+}
+
+fieldset {
+    width: 500px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    align-items: center;
+}
+
+input:focus {
+    outline-color: red;
+}
+
+label:has(+input:focus) {
+    text-decoration: underline;
+    /* text-transform: uppercase; */
+}
+
+li[data-id="1"]:hover {
+    color: red;
+}
+
+[data-id="1"] {
+    color: green;
+}
