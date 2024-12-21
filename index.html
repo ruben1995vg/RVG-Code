@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RVG Code</title>
+  <meta name="description" content="replica de la pagina del curso web">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" href="/youtube.png">
+  <link rel="apple-touch-icon" href="/iconoanime.png">
+</head>
+
+<body>
+  <h2 id="inicio">Aprendiendo HTML</h2>
+  <p>hola, estoy escribiendo un documento HTML</p>
+  <p>Aprendiendo sobre diseño web</p>
+  <h3>Temario del curso</h3>
+  <ul>
+    <li><a href="#1">Encabezados HTML</a></li>
+    <li><a href="#2">Etiquetas de texto básicas</a></li>
+    <li><a href="#3">Etiquetas de texto semánticas</a></li>
+    <li><a href="#4">Etiquetas de saltos</a></li>
+    <li><a href="#5">Etiquetas de formateo</a></li>
+    <li><a href="#6">Etiquetas de bloque vs Etiquetas de linea</a></li>
+    <li><a href="#7">Estilos CSS en HTML</a></li>
+    <li><a href="#8">Scripts en HTML</a></li>
+    <li><a href="#9">Imágenes</a></li>
+    <li><a href="#10">Listas</a></li>
+    <li><a href="#11">Tablas</a></li>
+    <li><a href="#12">Enlaces</a></li>
+    <li><a href="#13">Enlaces y protocolos especiales</a></li>
+    <li><a href="#14">Elementos interactivos</a></li>
+    <li><a href="#15">Audio y Video</a></li>
+    <li><a href="#16">Iframe</a></li>
+    <li><a href="#17">Formularios</a></li>
+    <li><a href="#18">Selects, Radios y Checkbox</a></li>
+    <li><a href="#19">Data attributes</a></li>
+  </ul>
+  <hr>
+  <h2 id="1">Encabezados HTML</h2>
+  <h1>Encabezado de nivel 1 - solo puede existir un h1 por documento html</h1>
+  <h2>Encabezado de nivel 2</h2>
+  <h3>Encabezado de nivel 3</h3>
+  <h4>Encabezado de nivel 4</h4>
+  <h5>Encabezado de nivel 5</h5>
+  <h6>Encabezado de nivel 6</h6>
+  <a href="#inicio">☝️</a>
+  <hr>
+  <h2 id="2">Etiquetas de texto básicas</h2>
+  <p>esto es un párrafo</p>
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor ullam a voluptatibus nam ipsam nemo aperiam soluta
+    porro magni architecto voluptatum quas, veniam hic corporis accusamus quasi vitae dicta pariatur!</p>
+  <p>palabras en <b>negrita</b> <i>itálica</i> <u>subrayado</u> e=em<sup>2</sup> H<sub>2</sub>0 <mark>marca texto</mark>
+    <small>letras pequeñas</small>
+  </p>
+  <a href="#inicio">☝️</a>
+  <hr>
+  <h2 id="3">Etiquetas de texto semánticas</h2>
+  <p><strong>esto es un texto importante</strong></p>
+  <p><em>texto con énfasis</em></p>
+  <blockquote>yo solo se que no se nada</blockquote>
+  <cite>Socrates</cite>
+  <br>
+  <a href="#inicio">☝️</a>
+  <hr>
+  <h2 id="4">Etiquetas de saltos</h2>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br>Sequi odio autem quisquam molestiae possimus
+    consequatur
+    id nostrum magni officiis laboriosam? <br>Dolorum possimus tempora quod asperiores, quaerat incidunt sit eveniet
+    rem?
+  </p>
+  <br>
+  <a href="#inicio">☝️</a>
+  <hr>
+  <h2 id="5">Etiquetas de formateo</h2>
+  <pre>
+    tareas por hacer:
+    - HTML
+      - terminar de grabar este curso
+      - editar en un solo video
+    - CSS
+      - comenzar a grabar secciones css
+      - editar en un solo video 
+  </pre>
+  <pre>
+    <code>
+      import React from "react";
+        import Title from "./Title";
+        
+        function App {
+          return &lt;Title /&gt;
+        }
+    </code>
+  </pre>
+  <a href="#inicio">☝️</a>
+  <hr>
+
+  <h2 id="6">Etiquetas de bloque vs Etiquetas de linea</h2>
+  <div style="background-color: paleturquoise;">div es la etiqueta de bloque por excelencia, una etiqueta de bloque es
+    la que genera saltos de linea independientemente del tamaño del contenido</div>
+  <span style="background-color: greenyellow;">span es la etiqueta de linea por excelencia, las Etiquetas de linea solo
+    ocupan el espacio de su contenido sin generar saltos de linea</span>
+  <span style="background-color: yellow;">este es otro span</span>
+  <br>
+  <br>
+  <a href="#inicio">☝️</a>
+  <hr>
+
+  <h2 id="7">Estilos CSS en HTML</h2>
+  <p>existen 3 formas de aplicar estilos css</p>
+  <ul>
+    <li>en linea</li>
+    <li>en la cabecera</li>
+    <li>en una hoja de estilos <strong>.css</strong></li>
+  </ul>
+  <br>
+  <a href="#inicio">☝️</a>
+  <hr>
+
+  <h2 id="8">Scripts en HTML</h2>
+  <pre>
+    <strong>dentro del documento HTML</strong>
+    <code>
+      &lt;script&gt;
+        console.log("hola mundo")
+      &lt;/script&gt;
+    </code>
+  </pre>
+  <pre>
+    <strong>otra forma es desde un documento .js</strong>
+    <code>
+      &lt;script src="ruta del archivo.js"&gt;&lt;/script&gt;
+    </code>
+  </pre>
+  <a href="#inicio">☝️</a>
+  <hr>
+
+  <h2 id="9">Imágenes y Figuras</h2>
+  <p>figuras con imágenes y su figcaption</p>
+  <figure style="float: left;"><img src="https://media1.tenor.com/m/gehheCG3K_4AAAAC/anime-k%C4%B1z%C4%B1-anime.gif"
+      height="300px" alt="gif">
+    <figcaption>Figura 1 formato gif</figcaption>
+  </figure>
+  <figure style="float: left;">
+    <img
+      src="https://img.freepik.com/fotos-premium/revelando-fusion-waifu-dentro-anime-kawaii-japones-chica-rubia_950157-1634.jpg?w=360"
+      height="300px" alt="jpg">
+
+    <figcaption>Figura 2 formato jpg</figcaption>
+  </figure>
+  <figure><img src="/vecteezy_japanese-kitsune-mask-with-sakura-flower-vector_5503078.svg" height="300px" alt="svg">
+    <figcaption>Figura 3 formato svg</figcaption>
+  </figure>
+  <br>
+  <br>
+  <a href="#inicio">☝️</a>
+  <hr>
+
+  <h2 id="10">Listas</h2>
+
+  <div>
+    <h3>Ejemplos de Listas Ordenadas "ol"</h3>
+    <dl>
+      <dt><strong>por defecto</strong></dt>
+      <dd>
+        <ol>
+          <li>invierno</li>
+          <li>primavera</li>
+          <li>verano</li>
+          <li>otoño</li>
+        </ol>
+      </dd>
+      <dt><strong>start="3"</strong></dt>
+      <dd>
+        <ol>
+          <li>invierno</li>
+          <li>primavera</li>
+          <li>verano</li>
+          <li>otoño</li>
+        </ol>
+      </dd>
+      <dt><strong>reversed</strong></dt>
+      <dd>
+        <ol reversed>
+          <li>invierno</li>
+          <li>primavera</li>
+          <li>verano</li>
+          <li>otoño</li>
+        </ol>
+      </dd>
+      <dt><strong>type="A"</strong></dt>
+      <dd>
+        <ol type="A">
+          <li>invierno</li>
+          <li>primavera</li>
+          <li>verano</li>
+          <li>otoño</li>
+        </ol>
+      </dd>
+    </dl>
+  </div>
+
+  <div>
+    <h3>Ejemplos de Listas Desordenadas "ul"</h3>
+    <dl>
+      <dt><strong>por defecto</strong></dt>
+      <dd>
+        <ul>
+          <li>invierno</li>
+          <li>primavera</li>
+          <li>verano</li>
+          <li>otoño</li>
+        </ul>
+      </dd>
+      <dt><strong>type="circle"</strong></dt>
+      <dd>
+        <ul type="circle">
+          <li>invierno</li>
+          <li>primavera</li>
+          <li>verano</li>
+          <li>otoño</li>
+        </ul>
+      </dd>
+      <dt><strong>type="square"</strong></dt>
+      <dd>
+        <ul type="square">
+          <li>invierno</li>
+          <li>primavera</li>
+          <li>verano</li>
+          <li>otoño</li>
+        </ul>
+      </dd>
+    </dl>
+  </div>
+
+  <div>
+    <h3>Ejemplos de Listas de Definiciones "dl"</h3>
+    <dl>
+      <dt>Termino a definir "dt"</dt>
+      <dd>Definición del Termino</dd>
+      <dt>Web</dt>
+      <dd>The part of the Internet that contains websites and web pages</dd>
+      <dt>HTML</dt>
+      <dd>A markup language for creating web pages</dd>
+      <dt>CSS</dt>
+      <dd>A technology to make HTML look better</dd>
+    </dl>
+  </div>
+
+  <br>
+  <a href="#inicio">☝️</a>
+  <hr>
+
+  <h2 id="11">Tablas</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th colspan="3">titulo (opcional)</th>
+      </tr>
+      <tr>
+        <th>productos</th>
+        <th>precio</th>
+        <th>cantidad</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>manzana</td>
+        <td>0.5</td>
+        <td>100</td>
+      </tr>
+      <tr>
+        <td>plátano</td>
+        <td>0.3</td>
+        <td>150</td>
+      </tr>
+      <tr>
+        <td>naranja</td>
+        <td rowspan="2">0.6</td>
+        <td>200</td>
+      </tr>
+      <tr>
+        <td>mandarina</td>
+        <td>180</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="3">lista de la compra</td>
+      </tr>
+    </tfoot>
+  </table>
+
+  <br>
+  <a href="#inicio">☝️</a>
+  <hr>
+
+  <h2 id="12">Enlaces</h2>
+
+  <a href="https://www.youtube.com/@ruben1995vg" target="_blank" rel="nofollow"><img src="/youtube.png" alt=""></a>
+  <br>
+  <a href="https://www.youtube.com/@ruben1995vg" target="_blank" rel="nofollow">enlace a mi canal de YouTube</a>
+
+
+  <br>
+  <br>
+  <br>
+  <a href="#inicio">☝️</a>
+  <hr>
+
+  <h2 id="13">Enlaces y protocolos especiales</h2>
+
+  <a href="mailto:example@example.com">correo electrónico</a>
+  <!-- <a href="http://" target="_blank" rel="noopener noreferrer"></a> -->
+  <a href="tel:+34602276994">tlf 1</a>
+  <a href="tel:+34619223427">tlf 2</a>
+  <a href="https://wa.me/34699711559">WhatsApp</a>
+
+  <p>602 27 69 94 no existe</p>
+  <p>604 25 46 62 existe</p>
+  <p>619 22 34 27 no existe</p>
+
+  <br>
+  <a href="#inicio">☝️</a>
+  <hr>
+
+  <h2 id="14">Elementos interactivos</h2>
+
+  <button onclick="alert('hola mundo')">alerta</button>
+  <details>
+    <summary>titulo de acordeón</summary>
+    <article>
+      <h3>wallpapers anime</h3>
+      <img src="/3186d626-3bb0-4db4-ac39-eb51a3c1e467.jpg" width="500px" alt="">
+      <p>esta imagen fue generada con inteligencia artificial</p>
+    </article>
+  </details>
+
+  <details>
+    <summary>titulo de acordeón</summary>
+    <article>
+      <h3>wallpapers anime</h3>
+      <img
+        src="/yande.re 1209714 animal_ears blue_archive erect_nipples halo kazane-wind nekomimi shiroko_terror sunaookami_shiroko swimsuits wet.jpg"
+        width="300px" alt="">
+      <p>esta imagen fue generada con inteligencia artificial</p>
+    </article>
+  </details>
+
+  <p>ventana modal abajo</p>
+  <dialog>
+    <img
+      src="/Konachan.com - 384325 bell blue_hair blush bra breast_hold breasts choker cleavage genshin_impact horns long_hair navel panties purple_eyes thighhighs underwear yonbajai.png"
+      alt="">
+  </dialog>
+
+  <br>
+  <a href="#inicio">☝️</a>
+  <hr>
+
+  <h2 id="15">Audio y Video</h2>
+
+  <!-- <audio src="/Going Home - The Soundlings.mp3" controls></audio>
+  <br>
+  <br>
+  <video src="/Grabación de pantalla 2024-12-16 230746.mp4" controls poster=""></video> -->
+
+  <br>
+  <br>
+  <a href="#inicio">☝️</a>
+  <hr>
+
+  <h2 id="16">Iframe</h2>
+
+  <iframe src="/html/index.html" frameborder="1"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/WIsel2VLUYk?si=xETlvHuYfWtZM0LB"
+    title="YouTube video player" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15074.27219539461!2d-2.556410731590328!3d37.22362714047588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7003d202c54ebb%3A0x4561e6917b4b8096!2sCalar%20Alto!5e1!3m2!1ses!2ses!4v1734536118951!5m2!1ses!2ses"
+    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+  <br>
+  <a href="#inicio">☝️</a>
+  <hr>
+
+  <!-- ...existing code... -->
+  <h2 id="17">Formularios</h2>
+
+  <form action="/submit" method="post">
+    <fieldset>
+      <legend>
+        <h3>Formulario</h3>
+      </legend>
+      <label for="text">Text:</label>
+      <input type="text" id="text" name="text" placeholder="nombre"><br><br>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="placeholder" required><br><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="placeholder"><br><br>
+
+      <label for="number">Number:</label>
+      <input type="number" id="number" name="number" placeholder="placeholder"><br><br>
+
+      <label for="tel">Telephone:</label>
+      <input type="tel" id="tel" name="tel" placeholder="placeholder"><br><br>
+
+      <label for="url">URL:</label>
+      <input type="url" id="url" name="url" placeholder="placeholder"><br><br>
+
+      <label for="search">Search:</label>
+      <input type="search" id="search" name="search" placeholder="placeholder"><br><br>
+
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date"><br><br>
+
+      <label for="time">Time:</label>
+      <input type="time" id="time" name="time"><br><br>
+
+      <label for="datetime-local">Datetime Local:</label>
+      <input type="datetime-local" id="datetime-local" name="datetime-local" readonly><br><br>
+
+      <label for="month">Month:</label>
+      <input type="month" id="month" name="month"><br><br>
+
+      <label for="week">Week:</label>
+      <input type="week" id="week" name="week"><br><br>
+
+      <label for="color">Color:</label>
+      <input type="color" id="color" name="color"><br><br>
+
+      <label for="file"> File:</label>
+      <input type="file" id="file" name="file" multiple><br><br>
+
+      <label for="range">Range:</label>
+      <input type="range" id="range" name="range"><br><br>
+
+      <label for="checkbox">Checkbox:</label>
+      <input type="checkbox" id="checkbox" name="checkbox"><br><br>
+
+      <label for="radio">Radio:</label>
+      <input type="radio" id="radio" name="radio"><br><br>
+
+      <label for="submit">Submit:</label>
+      <input type="submit" id="submit" name="submit"><br><br>
+
+      <label for="reset">Reset:</label>
+      <input type="reset" id="reset" name="reset"><br><br>
+
+      <label for="button">Button:</label>
+      <input type="button" id="button" name="button" value="Click Me"><br><br>
+
+      <label for="hidden">Hidden:</label>
+      <input type="hidden" id="hidden" name="hidden" value="hiddenValue"><br><br>
+
+      <textarea cols="50" rows="5" name="comentarios" id="comentarios"></textarea>
+    </fieldset>
+  </form>
+
+  <!-- ...existing code... -->
+  <br>
+  <a href="#inicio">☝️</a>
+  <hr>
+
+  <h2 id="18">Selects, Radios y Checkbox</h2>
+
+  <form action="">
+    <label for="idioma">idioma</label>
+    <select name="idioma" id="idioma" required>
+      <option value="" selected>selecciona el idioma</option>
+      <option value="pt">portugués</option>
+      <option value="pt">español</option>
+      <option value="pt">ingles</option>
+      <option value="pt">alemán</option>
+    </select>
+
+    <input type="radio" name="idioma" id="idioma=py" value="py">
+    <label for="idioma-py">python</label>
+    <input type="radio" name="idioma" id="idioma=js" value="js">
+    <label for="idioma-js">java script</label>
+    <input type="radio" name="idioma" id="idioma=php" value="php">
+    <label for="idioma-php">PHP</label>
+
+    <label>
+      <input type="radio" name="idioma" id="idioma=c++" value="c++">
+      c++
+    </label>
+
+    <label>
+      <input type="radio" name="idioma" id="idioma=go" value="go">
+      go
+    </label>
+
+    <input type="checkbox" name="idioma" id="idioma=py" value="py">
+    <label for="idioma-py">python</label>
+    <input type="checkbox" name="idioma" id="idioma=js" value="js">
+    <label for="idioma-js">java script</label>
+    <input type="checkbox" name="idioma" id="idioma=php" value="php">
+    <label for="idioma-php">PHP</label>
+
+    <label>
+      <input type="checkbox" name="idioma" id="idioma=c++" value="c++">
+      c++
+    </label>
+
+    <label>
+      <input type="checkbox" name="idioma" id="idioma=go" value="go">
+      go
+    </label>
+
+    <input type="submit" value="Enviar">
+  </form>
+
+  <!-- <form action="https://formsubmit.co/your@email.com" method="POST">
+    <input type="text" name="name" required>
+    <input type="email" name="email" required>
+    <button type="submit">Send</button>
+  </form> -->
+
+  <p>formsubmit</p>
+
+  <form action="https://formsubmit.co/laraga1043@mowline.com" method="POST">
+    <label for="nombre">nombre</label>
+    <input type="text" name="nombre" id="nombre" required>
+    <label for="email">correo</label>
+    <input type="email" name="email" id="email">
+    <textarea name="comentarios" id="comentarios" cols="25" rows="4"></textarea>
+    <input type="submit" value="Enviar">
+  </form>
+
+  <br>
+  <br>
+  <a href="#inicio">☝️</a>
+  <hr>
+
+  <h2 id="19">Data attributes</h2>
+
+  <ul>
+    <li data-id="1" data-name="q">primavera</li>
+    <li data-id="2" data-name="w">verano</li>
+    <li data-id="3" data-name="e">otoño</li>
+    <li data-id="4" data-name="r">invierno</li>
+  </ul>
+
+</body>
+
+</html>
