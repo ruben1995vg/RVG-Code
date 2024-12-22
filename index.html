@@ -136,7 +136,8 @@
   <pre>
     <strong>otra forma es desde un documento .js</strong>
     <code>
-      &lt;script src="ruta del archivo.js"&gt;&lt;/script&gt;
+     &lt;script src="ruta del archivo.js"&gt;
+     &lt;/script&gt;
     </code>
   </pre>
   <a href="#inicio">☝️</a>
@@ -144,19 +145,19 @@
 
   <h2 id="9">Imágenes y Figuras</h2>
   <p>figuras con imágenes y su figcaption</p>
-  <figure style="float: left;"><img src="https://media1.tenor.com/m/gehheCG3K_4AAAAC/anime-k%C4%B1z%C4%B1-anime.gif"
-      height="300px" alt="gif">
+  <figure> <!-- style="float: left;" -->
+    <img src="https://media1.tenor.com/m/gehheCG3K_4AAAAC/anime-k%C4%B1z%C4%B1-anime.gif" height="300px" alt="gif">
     <figcaption>Figura 1 formato gif</figcaption>
   </figure>
-  <figure style="float: left;">
+  <figure> <!-- style="float: left;" -->
     <img
-      src="https://img.freepik.com/fotos-premium/revelando-fusion-waifu-dentro-anime-kawaii-japones-chica-rubia_950157-1634.jpg?w=360"
-      height="300px" alt="jpg">
+      src="https://img.freepik.com/fotos-premium/revelando-fusion-waifu-dentro-anime-kawaii-japones-chica-rubia_950157-1634.jpg?h=300"
+      alt="jpg">
 
     <figcaption>Figura 2 formato jpg</figcaption>
   </figure>
-  <figure><img src="media/vecteezy_japanese-kitsune-mask-with-sakura-flower-vector_5503078.svg" height="300px"
-      alt="svg">
+  <figure class="f3">
+    <img class="vector" src="media/vecteezy_japanese-kitsune-mask-with-sakura-flower-vector_5503078.svg" alt="svg">
     <figcaption>Figura 3 formato svg</figcaption>
   </figure>
   <br>
@@ -180,7 +181,7 @@
       </dd>
       <dt><strong>start="3"</strong></dt>
       <dd>
-        <ol>
+        <ol start="3">
           <li>invierno</li>
           <li>primavera</li>
           <li>verano</li>
@@ -459,7 +460,7 @@
       <label for="hidden">Hidden:</label>
       <input type="hidden" id="hidden" name="hidden" value="hiddenValue"><br><br>
 
-      <textarea cols="50" rows="5" name="comentarios" id="comentarios"></textarea>
+      <textarea name="comentarios" id="comentarios"></textarea>
     </fieldset>
   </form>
 
@@ -530,7 +531,7 @@
     <input type="text" name="nombre" id="nombre" required>
     <label for="email">correo</label>
     <input type="email" name="email" id="email">
-    <textarea name="comentarios" id="comentarios" cols="25" rows="4"></textarea>
+    <textarea name="comentarios" id="comentarios" cols="25" rows="4" placeholder="comentarios"></textarea>
     <input type="submit" value="Enviar">
   </form>
 
