@@ -1,75 +1,110 @@
-/* html {
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
     scroll-behavior: smooth;
+    scrollbar-width: thin;
 }
 
-* {
+*,
+*::after,
+*::before {
     box-sizing: border-box;
-
-}
-
-body {
-    background-color: grey;
-}
-
-
-dialog {
     margin: 0;
     padding: 0;
-    border: none;
+    list-style: none;
+    color: black;
+    resize: none;
+    object-fit: contain;
+    /* text-decoration: none; */
 }
 
-dialog img {
-    width: 100%;
-}
-
-video {
-    width: 720px;
-}
-
-iframe {
-    width: 80%;
-    height: 300px;
-}
-
-fieldset {
-    min-width: 320px;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
+.dfc-c {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
     align-items: center;
 }
 
-textarea {
-    width: 100%;
-    height: 10ch;
-}
-
-input:focus {
-    outline-color: red;
-}
-
-label:has(+input:focus) {
-    text-decoration: underline;
-}
-
-li[data-id="1"]:hover {
-    color: red;
-}
-
-[data-id="1"] {
-    color: green;
-}
-
-.vector {
-    width: 224px;
-    margin: 0;
-}
-
-article img {
-    width: 100%;
-}
-
-form {
+.dfrw-c {
     display: flex;
-    flex-direction: column;
+    /* flex-flow: row wrap; */
+    justify-content: center;
+    align-items: center;
+}
+
+/* header */
+
+header {
+    height: 200px;
+    width: 100%;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+}
+
+header h2 {
+    font-size: clamp(1.5rem, 3vw, 3.125rem);
+}
+
+/* temario del curso */
+
+.temario {
+    width: 100%;
+    padding: 3rem;
+}
+
+.temario h3 {
+    margin-bottom: 3rem;
+    font-size: 2rem;
+}
+
+.temario ul {
+    width: 95%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+.temario li {
+    width: 250px;
+    height: 80px;
+    padding: 1.5rem;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    border-radius: 50px;
+}
+
+/* encabezados y formateo */
+
+.encabezados {
+    height: 50vh;
+    justify-content: space-around;
+}
+
+
+.basicas,
+.semanticas,
+.saltos,
+.formateo {
+    width: 50%;
+    height: 450px;
+    padding: 2rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+
+.basicas a,
+.semanticas a {
+    margin-top: auto;
+}
+
+/* .basicas h2,
+.semanticas h2{
+    margin-bottom: 2rem;
 } */

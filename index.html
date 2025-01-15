@@ -25,88 +25,112 @@
 </head>
 
 <body>
-  <h2 id="inicio">Aprendiendo HTML</h2>
-  <p>hola, estoy escribiendo un documento HTML</p>
-  <p>Aprendiendo sobre diseño web</p>
-  <h3>Temario del curso</h3>
-  <ul>
-    <li><a href="#1">Encabezados HTML</a></li>
-    <li><a href="#2">Etiquetas de texto básicas</a></li>
-    <li><a href="#3">Etiquetas de texto semánticas</a></li>
-    <li><a href="#4">Etiquetas de saltos</a></li>
-    <li><a href="#5">Etiquetas de formateo</a></li>
-    <li><a href="#6">Etiquetas de bloque vs Etiquetas de linea</a></li>
-    <li><a href="#7">Estilos CSS en HTML</a></li>
-    <li><a href="#8">Scripts en HTML</a></li>
-    <li><a href="#9">Imágenes</a></li>
-    <li><a href="#10">Listas</a></li>
-    <li><a href="#11">Tablas</a></li>
-    <li><a href="#12">Enlaces</a></li>
-    <li><a href="#13">Enlaces y protocolos especiales</a></li>
-    <li><a href="#14">Elementos interactivos</a></li>
-    <li><a href="#15">Audio y Video</a></li>
-    <li><a href="#16">Iframe</a></li>
-    <li><a href="#17">Formularios</a></li>
-    <li><a href="#18">Selects, Radios y Checkbox</a></li>
-    <li><a href="#19">Data attributes</a></li>
-  </ul>
+  <header class="dfc-c">
+    <h2 id="inicio">Aprendiendo HTML</h2>
+    <p>hola, estoy escribiendo un documento HTML</p>
+    <p>Aprendiendo sobre desarrollo web</p>
+  </header>
+  <!-- header -->
+  <section class="temario dfc-c">
+    <h3>Temario del curso</h3>
+    <ul>
+      <li><a href="#1">Encabezados HTML</a></li>
+      <li><a href="#2">Etiquetas de texto básicas</a></li>
+      <li><a href="#3">Etiquetas de texto semánticas</a></li>
+      <li><a href="#4">Etiquetas de saltos</a></li>
+      <li><a href="#5">Etiquetas de formateo</a></li>
+      <li><a href="#6">Etiquetas de bloque vs Etiquetas de linea</a></li>
+      <li><a href="#7">Estilos CSS en HTML</a></li>
+      <li><a href="#8">Scripts en HTML</a></li>
+      <li><a href="#9">Imágenes</a></li>
+      <li><a href="#10">Listas</a></li>
+      <li><a href="#11">Tablas</a></li>
+      <li><a href="#12">Enlaces</a></li>
+      <li><a href="#13">Enlaces y protocolos especiales</a></li>
+      <li><a href="#14">Elementos interactivos</a></li>
+      <li><a href="#15">Audio y Video</a></li>
+      <li><a href="#16">Iframe</a></li>
+      <li><a href="#17">Formularios</a></li>
+      <li><a href="#18">Selects, Radios y Checkbox</a></li>
+      <li><a href="#19">Data attributes</a></li>
+    </ul>
+    <hr>
+  </section>
   <hr>
-  <h2 id="1">Encabezados HTML</h2>
-  <h1>Encabezado de nivel 1 - solo puede existir un h1 por documento html</h1>
-  <h2>Encabezado de nivel 2</h2>
-  <h3>Encabezado de nivel 3</h3>
-  <h4>Encabezado de nivel 4</h4>
-  <h5>Encabezado de nivel 5</h5>
-  <h6>Encabezado de nivel 6</h6>
-  <a href="#inicio">☝️</a>
+  <section class="encabezados dfc-c">
+    <h2 id="1">Encabezados HTML</h2>
+    <div class="titulo">
+      <h1>Encabezado de nivel 1 - Aprendiendo HTML</h1>
+      <p>solo puede haber un h1 por documento html</p>
+    </div>
+    <h2>Encabezado de nivel 2</h2>
+    <h3>Encabezado de nivel 3</h3>
+    <h4>Encabezado de nivel 4</h4>
+    <h5>Encabezado de nivel 5</h5>
+    <h6>Encabezado de nivel 6</h6>
+    <a href="#inicio">☝️</a>
+  </section>
   <hr>
-  <h2 id="2">Etiquetas de texto básicas</h2>
-  <p>esto es un párrafo</p>
-  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor ullam a voluptatibus nam ipsam nemo aperiam soluta
-    porro magni architecto voluptatum quas, veniam hic corporis accusamus quasi vitae dicta pariatur!</p>
-  <p>palabras en <b>negrita</b> <i>itálica</i> <u>subrayado</u> e=em<sup>2</sup> H<sub>2</sub>0 <mark>marca texto</mark>
-    <small>letras pequeñas</small>
-  </p>
-  <a href="#inicio">☝️</a>
+  <div class="texto dfrw-c">
+    <div class="basicas">
+      <h2 id="2">Etiquetas de texto básicas</h2>
+      <p>esto es un párrafo</p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor ullam a voluptatibus nam ipsam nemo aperiam
+        soluta
+        porro magni architecto voluptatum quas, veniam hic corporis accusamus quasi vitae dicta pariatur!</p>
+      <p>palabras en <b>negrita</b> <i>itálica</i> <u>subrayado</u> e=em<sup>2</sup> H<sub>2</sub>0 <mark>marca
+          texto</mark>
+        <small>letras pequeñas</small>
+      </p>
+      <a href="#inicio">☝️</a>
+    </div>
+    <div class="semanticas">
+      <h2 id="3">Etiquetas de texto semánticas</h2>
+      <p><strong>esto es un texto importante</strong></p>
+      <p><em>texto con énfasis</em></p>
+      <blockquote>yo solo se que no se nada</blockquote>
+      <cite>Socrates</cite>
+      <br>
+      <a href="#inicio">☝️</a>
+    </div>
+  </div>
   <hr>
-  <h2 id="3">Etiquetas de texto semánticas</h2>
-  <p><strong>esto es un texto importante</strong></p>
-  <p><em>texto con énfasis</em></p>
-  <blockquote>yo solo se que no se nada</blockquote>
-  <cite>Socrates</cite>
-  <br>
-  <a href="#inicio">☝️</a>
-  <hr>
-  <h2 id="4">Etiquetas de saltos</h2>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br>Sequi odio autem quisquam molestiae possimus
-    consequatur
-    id nostrum magni officiis laboriosam? <br>Dolorum possimus tempora quod asperiores, quaerat incidunt sit eveniet
-    rem?
-  </p>
-  <br>
-  <a href="#inicio">☝️</a>
-  <hr>
-  <h2 id="5">Etiquetas de formateo</h2>
-  <pre>
-    tareas por hacer:
-    - HTML
-      - terminar de grabar este curso
-      - editar en un solo video
-    - CSS
-      - comenzar a grabar secciones css
-      - editar en un solo video 
-  </pre>
-  <pre>
-    <code>
-      import React from "react";
-        import Title from "./Title";
-        
-        function App {
-          return &lt;Title /&gt;
-        }
-    </code>
-  </pre>
-  <a href="#inicio">☝️</a>
+  <div class="format dfrw-c">
+    <div class="saltos">
+      <h2 id="4">Etiquetas de saltos</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br>Sequi odio autem quisquam molestiae possimus
+        consequatur
+        id nostrum magni officiis laboriosam? <br>Dolorum possimus tempora quod asperiores, quaerat incidunt sit eveniet
+        rem?
+      </p>
+      <br>
+      <a href="#inicio">☝️</a>
+    </div>
+    <hr>
+    <div class="formateo">
+      <h2 id="5">Etiquetas de formateo</h2>
+      <pre>
+        tareas por hacer:
+        - HTML
+          - terminar de grabar este curso
+          - editar en un solo video
+        - CSS
+          - comenzar a grabar secciones css
+          - editar en un solo video
+      </pre>
+      <pre>
+        <code>
+          import React from "react";
+            import Title from "./Title";
+      
+            function App {
+              return &lt;Title /&gt;
+            }
+        </code>
+      </pre>
+      <a href="#inicio">☝️</a>
+    </div>
+  </div>
   <hr>
 
   <h2 id="6">Etiquetas de bloque vs Etiquetas de linea</h2>
